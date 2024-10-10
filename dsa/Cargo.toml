@@ -23,7 +23,7 @@ pkcs8 = { version = "=0.11.0-rc.1", default-features = false, features = ["alloc
 rfc6979 = { version = "=0.5.0-pre.4", path = "../rfc6979" }
 sha2 = { version = "=0.11.0-pre.4", default-features = false }
 signature = { branch = "master", default-features = false, features = ["alloc", "digest", "rand_core"], git = "https://github.com/ArnoldTumukunde/traits.git" }
-zeroize = { version = "1", default-features = false }
+zeroize = { version = "1.8.1", default-features = false }
 
 [dev-dependencies]
 pkcs8 = { version = "=0.11.0-rc.1", default-features = false, features = ["pem"] }
